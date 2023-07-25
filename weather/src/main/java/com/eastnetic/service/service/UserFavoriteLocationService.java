@@ -13,6 +13,4 @@ public interface UserFavoriteLocationService {
     void deleteUserFavoriteLocation(Long favLocationId);
 
     boolean existsByLocationIdAndUsername(Long locationId, String username);
-    long countByLocationIdAndUsername(Long locationId, String username);
-    long countByUsername(String username);
 }

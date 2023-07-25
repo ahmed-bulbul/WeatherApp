@@ -56,13 +56,4 @@ public class UserFavoriteLocationServiceImpl implements UserFavoriteLocationServ
         return userFavoriteLocationRepository.existsByLocationIdAndUser_Username(locationId, username);
     }
 
-    @Override
-    public long countByLocationIdAndUsername(Long locationId, String username) {
-        return userFavoriteLocationRepository.countByLocationIdAndUser_Username(locationId, username);
-    }
-
-    @Override
-    public long countByUsername(String username) {
-        return userFavoriteLocationRepository.countByUser_Username(username);
-    }
 }
