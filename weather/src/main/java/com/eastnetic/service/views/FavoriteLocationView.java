@@ -50,11 +50,9 @@ public class FavoriteLocationView extends VerticalLayout {
         this.userFavoriteLocationService = userFavoriteLocationService;
         this.weatherAppClient = weatherAppClient;
 
-
         // Create the main div container
         container = new Div();
 //        container.addClassName("fav-weather-container");
-
         // Generate and populate the weather data
         createFavoriteLocationContent(container);
 

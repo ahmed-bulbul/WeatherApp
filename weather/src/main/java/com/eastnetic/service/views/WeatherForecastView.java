@@ -110,7 +110,6 @@ public class WeatherForecastView extends VerticalLayout {
         compassSpan.add("East");
 
         forecastContentDiv.add(locationDiv, degreeDiv, umbrellaSpan, windSpan, compassSpan);
-
         Div todayDiv = new Div();
         todayDiv.addClassName("today");
         todayDiv.addClassName("forecast");

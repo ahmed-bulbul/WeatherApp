@@ -58,7 +58,6 @@ public class SearchLocationView extends VerticalLayout {
         setSizeFull();
 
         configureGrid();
-
         dailyForecastView = new WeatherForecastView();
         dailyForecastView.setSizeFull();
         dailyForecastView.showWeatherInfo(null, null);
@@ -83,7 +82,6 @@ public class SearchLocationView extends VerticalLayout {
         Button searchButton = new Button("Search");
         searchButton.addClickListener(click -> getLocations());
         searchButton.addClickShortcut(Key.ENTER);
-
         var toolbar = new HorizontalLayout(searchText, searchButton);
         toolbar.addClassName("toolbar");
         return toolbar;
@@ -103,7 +101,6 @@ public class SearchLocationView extends VerticalLayout {
 
         grid.setPageSize(10);
         grid.addThemeVariants(GridVariant.LUMO_ROW_STRIPES);
-
         configureGridFilterTextField();
 
         // location row select action
