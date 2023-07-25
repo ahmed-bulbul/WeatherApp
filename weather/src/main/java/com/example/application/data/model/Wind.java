@@ -2,7 +2,9 @@ package com.example.application.data.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import lombok.Data;
 
+@Data
 public class Wind {
 
     @SerializedName("speed")
@@ -11,21 +13,5 @@ public class Wind {
     @SerializedName("deg")
     @Expose
     private Integer deg;
-
-    public Double getSpeed() {
-        return speed;
-    }
-
-    public void setSpeed(Double speed) {
-        this.speed = speed;
-    }
-
-    public Integer getDeg() {
-        return deg;
-    }
-
-    public void setDeg(Integer deg) {
-        this.deg = deg;
-    }
 
 }

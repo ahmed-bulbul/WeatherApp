@@ -2,7 +2,9 @@ package com.example.application.data.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import lombok.Data;
 
+@Data
 public class Coord {
 
     @SerializedName("lon")
@@ -11,21 +13,5 @@ public class Coord {
     @SerializedName("lat")
     @Expose
     private Double lat;
-
-    public Double getLon() {
-        return lon;
-    }
-
-    public void setLon(Double lon) {
-        this.lon = lon;
-    }
-
-    public Double getLat() {
-        return lat;
-    }
-
-    public void setLat(Double lat) {
-        this.lat = lat;
-    }
 
 }
