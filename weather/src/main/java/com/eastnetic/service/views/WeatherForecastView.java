@@ -90,7 +90,7 @@ public class WeatherForecastView extends VerticalLayout {
 
         Div forecastIconDiv = new Div();
         forecastIconDiv.addClassName("forecast-icon");
-        Image forecastImage = new Image("icons/icon-1.svg", "Weather Icon");
+        Image forecastImage = new Image("/icons/icon-1.svg", "Weather Icon");
         forecastImage.setWidth("90px");
 
         forecastIconDiv.add(forecastImage);
@@ -98,15 +98,15 @@ public class WeatherForecastView extends VerticalLayout {
         degreeDiv.add(numDiv, forecastIconDiv);
 
         Span umbrellaSpan = new Span();
-        umbrellaSpan.add(new Image("icon-umberella.png", "Umbrella Icon"));
+        umbrellaSpan.add(new Image("/icons/icon-umberella.png", "Umbrella Icon"));
         umbrellaSpan.add("20%");
 
         Span windSpan = new Span();
-        windSpan.add(new Image("icon-wind.png", "Wind Icon"));
+        windSpan.add(new Image("/icons/icon-wind.png", "Wind Icon"));
         windSpan.add(currentWeather.getWindspeed() + "km/h");
 
         Span compassSpan = new Span();
-        compassSpan.add(new Image("icon-compass.png", "Compass Icon"));
+        compassSpan.add(new Image("/icons/icon-compass.png", "Compass Icon"));
         compassSpan.add("East");
 
         forecastContentDiv.add(locationDiv, degreeDiv, umbrellaSpan, windSpan, compassSpan);
@@ -180,7 +180,7 @@ public class WeatherForecastView extends VerticalLayout {
         Div forecastIconDiv = new Div();
         forecastIconDiv.addClassName("forecast-icon");
 
-        Image forecastImage = new Image("icons/icon-3.svg", "Weather Icon");
+        Image forecastImage = new Image("/icons/icon-3.svg", "Weather Icon");
         forecastImage.setWidth("48px");
 
         forecastIconDiv.add(forecastImage);

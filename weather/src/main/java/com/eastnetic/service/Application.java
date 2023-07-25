@@ -19,8 +19,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 @PWA(
         name = "Vaadin CRM",
         shortName = "CRM",
-        offlinePath="offline.html",
-        offlineResources = { "images/offline.png" }
+        offlinePath="/static/offline.html",
+        offlineResources = { "/icon/offline.png" }
 )
 public class Application implements AppShellConfigurator {
 
