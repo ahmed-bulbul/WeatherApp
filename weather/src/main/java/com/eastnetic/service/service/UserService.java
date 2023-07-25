@@ -1,7 +1,7 @@
 package com.eastnetic.service.service;
 
 
-import com.eastnetic.service.entity.User;
+import com.eastnetic.service.model.User;
 
 import java.util.Optional;
 

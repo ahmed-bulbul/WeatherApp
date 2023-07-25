@@ -1,7 +1,7 @@
 package com.eastnetic.service.repository;
 
 
-import com.eastnetic.service.entity.UserFavoriteLocation;
+import com.eastnetic.service.model.UserFavoriteLocation;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

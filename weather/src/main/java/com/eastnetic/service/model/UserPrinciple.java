@@ -1,4 +1,4 @@
-package com.eastnetic.service.entity;
+package com.eastnetic.service.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;

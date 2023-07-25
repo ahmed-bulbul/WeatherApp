@@ -1,10 +1,10 @@
 package com.eastnetic.service.security;
 
 
-import com.eastnetic.service.entity.UserPrinciple;
+import com.eastnetic.service.model.UserPrinciple;
 import com.eastnetic.service.repository.UserRepository;
 
-import com.eastnetic.service.entity.User;
+import com.eastnetic.service.model.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

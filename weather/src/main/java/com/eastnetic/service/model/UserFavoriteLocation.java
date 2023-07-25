@@ -1,4 +1,4 @@
-package com.eastnetic.service.entity;
+package com.eastnetic.service.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

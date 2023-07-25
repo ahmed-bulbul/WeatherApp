@@ -1,6 +1,6 @@
 package com.eastnetic.service.service;
 
-import com.eastnetic.service.entity.User;
+import com.eastnetic.service.model.User;
 
 import com.eastnetic.service.dto.UserIdProjection;
 import com.eastnetic.service.repository.UserRepository;

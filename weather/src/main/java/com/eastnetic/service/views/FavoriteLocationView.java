@@ -1,7 +1,7 @@
 package com.eastnetic.service.views;
 
 
-import com.eastnetic.service.entity.UserFavoriteLocation;
+import com.eastnetic.service.model.UserFavoriteLocation;
 import com.eastnetic.service.dto.CurrentWeather;
 import com.eastnetic.service.security.AuthenticationService;
 import com.eastnetic.service.service.UserFavoriteLocationService;

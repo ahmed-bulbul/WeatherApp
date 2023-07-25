@@ -1,4 +1,4 @@
-package com.eastnetic.service.entity;
+package com.eastnetic.service.model;
 
 public enum  RoleName {
     ADMIN,

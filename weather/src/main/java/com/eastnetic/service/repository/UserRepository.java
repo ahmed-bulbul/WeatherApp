@@ -2,7 +2,7 @@ package com.eastnetic.service.repository;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.eastnetic.service.entity.User;
+import com.eastnetic.service.model.User;
 
 import java.util.Optional;
 

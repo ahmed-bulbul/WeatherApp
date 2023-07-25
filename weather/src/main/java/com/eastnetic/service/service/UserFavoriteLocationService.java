@@ -1,6 +1,6 @@
 package com.eastnetic.service.service;
 
-import com.eastnetic.service.entity.UserFavoriteLocation;
+import com.eastnetic.service.model.UserFavoriteLocation;
 import com.eastnetic.service.dto.Location;
 
 import java.util.List;
